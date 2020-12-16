@@ -25,7 +25,7 @@ public class Ex8 {
 		System.out.print("Digite o segundo número: ");
 		int num2 = in.nextInt();
 
-		System.out.println(Ex8.power(num1, num2));
+		System.out.println("Resultado: "+Ex8.power(num1, num2));
 
 	}
 
