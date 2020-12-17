@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Ex12 {
+public class Ex13 {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		List<Double> list = new ArrayList();
 
 		Scanner in = new Scanner(System.in);
@@ -27,20 +28,20 @@ public class Ex12 {
 
 		} while (r.equalsIgnoreCase("S"));
 
-		double maior = Ex12.maior(list);
+		double menor = Ex13.menor(list);
 
-		System.out.println("Maior número: " + maior);
+		System.out.println("Maior número: " + menor);
 
 	}
 
-	public static double maior(List<Double> l) {
-		double maior = l.get(0);
+	public static double menor(List<Double> l) {
+		double menor = l.get(0);
 		for (int c = 0; c < l.size(); c++) {
-			if (maior < l.get(c)) {
-				maior = l.get(c);
+			if (menor > l.get(c)) {
+				menor = l.get(c);
 			}
 		}
-		return maior;
+		return menor;
 
 	}
 
