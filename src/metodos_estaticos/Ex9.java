@@ -8,8 +8,8 @@ public class Ex9 {
 		Scanner in = new Scanner(System.in);
 		
 		System.out.print("Digite o primeiro número: ");
-		
 		int num1 = in.nextInt();
+		
 		System.out.print("Digite o segundo número: ");
 		int num2 = in.nextInt();
 		
